@@ -8,7 +8,7 @@ Route::get('/', function () {
     $home_text = 'Welcome to the home page!';
 
     return view('home', compact('home_text'));
-});
+})->name('home');
 
 Route::get('/about', function () {
 
@@ -16,7 +16,7 @@ Route::get('/about', function () {
     $about_text = 'Welcome to the about page!';
 
     return view('about', compact('about_text'));
-});
+})->name('about');
 
 Route::get('/contacts', function () {
 
@@ -24,4 +24,4 @@ Route::get('/contacts', function () {
     $contacts_text = 'Welcome to the contact page!';
 
     return view('contacts', compact('contacts_text'));
-});
+})->name('contacts');

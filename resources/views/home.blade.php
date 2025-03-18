@@ -17,7 +17,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/">LARAVEL</a>
+            <a class="navbar-brand" href="{{ route('home') }}">LARAVEL</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,20 +25,20 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/">Home</a>
+                        <a class="nav-link" aria-current="page" href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about">About</a>
+                        <a class="nav-link" href="{{ route('about') }}">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contacts">Contacts</a>
+                        <a class="nav-link" href="{{ route('contacts') }}">Contacts</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-
+    <!-- Main -->
     <main class="container pt-5">
         <h1 class="text-center mt-5">HOME PAGE</h1>
         <p class="text-center">{{$home_text}}</p>
