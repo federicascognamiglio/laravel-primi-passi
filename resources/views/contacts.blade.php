@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Contacts Page</title>
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -40,8 +40,8 @@
 
 
     <main class="container pt-5">
-        <h1 class="text-center mt-5">HOME PAGE</h1>
-        <p class="text-center">{{$home_text}}</p>
+        <h1 class="text-center mt-5">CONTACTS PAGE</h1>
+        <p class="text-center">{{$contacts_text}}</p>
     </main>
 
     <!-- Bootstrap -->
