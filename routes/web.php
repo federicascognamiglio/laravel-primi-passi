@@ -18,10 +18,10 @@ Route::get('/about', function () {
     return view('about', compact('about_text'));
 });
 
-Route::get('/contact', function () {
+Route::get('/contacts', function () {
 
     // Passo dati dinamicamente alla vista
-    $contact_text = 'Welcome to the contact page!';
+    $contacts_text = 'Welcome to the contact page!';
 
-    return view('contact', compact('contact_text'));
+    return view('contacts', compact('contacts_text'));
 });
